@@ -165,3 +165,70 @@
 //   i++;
 // }
 // console.log(found);
+
+// let tasks = ["Имэйл шалгах", "Тайлан бичих", "Код шалгах"];
+// while (tasks.length>0) {
+//  const finished = tasks.shift();
+//   console.log(`Дууссан: ${finished}`);
+// }console.log(tasks);
+
+// let durations = [15, 20, 10, 25], availableMinutes = 50,
+// count=0, 
+// i=0;
+// while (durations.length>0) {
+//     if (durations[i] > availableMinutes) {
+//         break;}
+// availableMinutes -= durations[i];
+// count++;
+// i++; 
+// }console.log(count);
+// console.log(availableMinutes);
+
+// let number=0;
+// do {console.log(number);
+// }while(number>0)
+
+// let notification=0,
+// count=0;
+// do {
+//     console.log("Мэдэгдэл шалгаж байна");
+//     count++;
+// } while (notification>0);
+
+// let dice;
+// do {
+//     dice = Math.floor(Math.random() * 6) + 1;
+//     console.log(dice);
+// } while (dice !== 6);
+
+// let coin;
+
+// do {
+//     coin = Math.floor(Math.random() * 2);
+
+//     if (coin === 0) {
+//         console.log("Сүлд");
+//     } else {
+//         console.log("Тоо");
+//     }
+
+// } while (coin !== 0);
+
+// let count;
+
+// do {
+//     count = Math.floor(Math.random() * 10) + 1;
+
+//     console.log(count);
+
+// } while (count % 2 !== 0);
+
+// let dice;
+// let count=0;
+// do {
+//     dice = Math.floor(Math.random() * 6) + 1;
+//     console.log(dice);
+//     count++;
+    
+// } while (dice !== 6 && count<5);
+// console.log(`Нийт ${count} удаа хаялаа`);
